@@ -1,3 +1,5 @@
+'use strict';
+
 // First
 const countTypes = arr => {
     let obj = { boolean: 0, string: 0, number: 0 };
