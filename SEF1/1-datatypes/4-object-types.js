@@ -7,7 +7,7 @@ const countTypes = arr => {
         obj[typeof el]++;
     }
     return obj;
-}
+};
 console.log(countTypes(['hey', 'bye', true, false, 5, 500, -500]));
 
 // Second
@@ -21,5 +21,5 @@ const countTypesDynamic = arr => {
         }
     }
     return obj;
-}
+};
 console.log(countTypesDynamic(['hey', 'bye', true, false, 5, 500, -500]));
